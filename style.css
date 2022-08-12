@@ -1,0 +1,751 @@
+* {
+    box-sizing: border-box !important;
+}
+
+/* Nav links & icon styling*/
+.nvlnk {}
+
+.icn {
+    font-size: 20px;
+    padding: 0.5rem;
+}
+
+.nvlnk {
+    color: white;
+    font-size: 1rem !important;
+    font-family: Nunito, sans-serif;
+}
+
+.nvitm {
+    padding-left: 3rem !important;
+}
+
+/* overall nav styleing */
+
+nav {
+    padding-top: 1.5rem !important;
+    padding-bottom: 2rem !important;
+    color: white !important;
+}
+
+nav a {
+    color: white !important;
+
+}
+
+li {
+    color: white !important;
+    padding-right: 1rem;
+}
+
+/* stylink for background image */
+
+header {
+    position: absolute !important;
+    z-index: 10;
+    width: 100%;
+}
+
+main {
+    position: relative !important;
+    /* background-image: url(/assests/slider-bg12.jpg);
+background-size: cover;
+background-position: center; */
+    /* min-height: 100vh; */
+}
+
+.bck {
+    height: 100vh;
+    /* background-color: #710d9963; */
+    background-image: linear-gradient(#8450dd8c, #8450dd8c), url("/assests/slider-bg12.jpg");
+    background-size: cover;
+    background-position: center;
+    position: relative;
+
+
+
+
+
+}
+
+/* center hero-text */
+
+
+.tt {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+
+
+.tt button {
+    height: 3rem;
+    width: 9.5rem;
+    border: 1px solid white;
+    border-radius: 2rem;
+    background-color: white;
+    margin-top: 2rem;
+    font-size: 1.2rem;
+    display: inline-block;
+}
+
+/* logo image */
+
+.imj {
+    width: 60%;
+
+}
+
+/* home page ended */
+
+/* service page started */
+.svtxt {
+    padding-top: 4rem;
+    padding-bottom: 3rem;
+
+}
+
+.svtxt button {
+    width: 8 rem;
+    height: 2rem;
+    border: none;
+    border-radius: 2rem;
+    background-color: #d1d2da;
+    color: #8892da;
+    display: inline-block;
+    margin-bottom: 2rem;
+}
+
+.ps {
+    font-size: 2rem;
+
+}
+
+/* cards */
+.cd {
+    border: none !important;
+    text-align: center !important;
+    margin-bottom: 1rem;
+}
+
+.icn {
+    opacity: 0.8;
+    font-size: 1rem;
+}
+
+.cnt-c {
+    margin-top: 2rem;
+    margin-bottom: ;
+}
+
+/* features portion */
+.ft {
+    margin-top: 6rem !important;
+    margin-bottom: 6rem !important;
+}
+
+.ftbt {
+    width: 9rem;
+    height: 2.3rem;
+    border: none;
+    border-radius: 2rem;
+    background-color: #d1d2da;
+    color: #8892da;
+    display: inline-block;
+    margin-bottom: 2rem;
+    font-weight: 600;
+    font-size: 11px;
+    line-height: 20px;
+}
+
+.fthed {
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 44px;
+    color: #404040;
+}
+
+.fthd {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 26px;
+    color: #404040;
+}
+
+.ftpara {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: #606060;
+}
+
+/* why us portion */
+
+.wh {
+
+    margin-top: 10rem !important;
+    margin-bottom: 8rem !important;
+}
+
+.whdv {
+    padding-top: 7rem !important;
+
+
+}
+
+.whbt {
+
+    width: 9rem;
+    height: 2.3rem;
+    border: none;
+    border-radius: 2rem;
+    background-color: #d1d2da;
+    color: #8892da;
+    display: block;
+    margin-bottom: 2rem;
+    font-weight: 600;
+    font-size: 11px;
+    line-height: 20px;
+}
+
+.whhed {
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 44px;
+}
+
+.whd {
+    font-weight: 600;
+    font-size: 19px;
+    line-height: 25px;
+}
+
+.whdh {
+
+    padding-top: 2rem !important;
+}
+
+/* background image portion */
+
+.bgimg {
+
+    background-image: linear-gradient(#8450dd8c, #8450dd8c), url("/assests/bg25.jpg");
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+    background-attachment: fixed !important;
+    position: relative;
+    min-height: 100vh !important;
+    width: 100%;
+}
+
+.bgcnt {
+
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+
+}
+
+.bgbt {
+    height: 2rem;
+    width: 8rem;
+    border: 1px solid white;
+    border-radius: 2rem;
+    background-color: white;
+    margin-top: 2rem;
+    font-size: 1.2rem;
+    display: inline-block;
+    color: #404040;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 20px;
+    margin-bottom: 1rem !important;
+}
+
+.bghd {
+    color: #ffffff;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 44px;
+}
+
+.bgimg p {
+    margin-top: 1rem !important;
+    font-size: 4rem;
+
+}
+
+.bgi {
+    margin-top: 5rem !important;
+
+
+}
+
+/* cards portions */
+
+.cdbt {
+    width: 8rem;
+    height: 2.3rem;
+    border: none;
+    border-radius: 2rem;
+    background-color: #d1d2da;
+    color: #8892da;
+    display: inline-block;
+    margin-bottom: 2rem;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.cdhd {
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 44px;
+}
+
+.cdtxt {
+    margin-bottom: 4rem !important;
+}
+
+.cdpara {
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 28px;
+}
+
+.cdb {
+    border-style: none !important;
+    margin-bottom: 2rem !important;
+}
+
+.cdbd {
+    background-color: #F9FAFB !important;
+    padding-top: 8rem !important;
+}
+
+/* happy customer portion */
+
+.cu {
+    margin-top: 8rem !important;
+    margin-bottom: 15rem !important;
+}
+
+.cushed button {
+
+    width: 10rem;
+    height: 2.3rem;
+    border: none;
+    border-radius: 2rem;
+    background-color: #d1d2da;
+    color: #8892da;
+    display: inline-block;
+    margin-bottom: 2rem;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+
+}
+
+.cushed h5 {
+
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 44px;
+
+}
+
+.cutxt {
+
+    padding-top: 2rem !important;
+
+}
+
+.customer-text {
+    margin-top: 5rem !important;
+}
+
+.cupara {
+    color: #aaa6a6;
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 28px;
+}
+
+.cuparat {
+    color: #707070;
+    font-weight: 300;
+    font-size: 22px;
+    line-height: 34px;
+}
+
+.cuh6 {
+    color: #404040;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 24px;
+}
+
+.cuh5 {
+    color: #999999;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+}
+
+/* difficult cards */
+
+.dcr {
+    background-color: whitesmoke;
+    padding-bottom: 5rem;
+
+}
+
+.dc {
+
+    padding-top: 14rem !important;
+margin-bottom: 5rem;
+}
+
+.dctxt {
+
+    padding-right: 1rem;
+    padding-bottom: 2rem;
+
+}
+
+.dctxt button {
+
+    width: 8rem;
+    height: 2.3rem;
+    border: none;
+    border-radius: 2rem;
+    background-color: #d1d2da;
+    color: #8892da;
+    display: inline-block;
+    margin-bottom: 2rem;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+
+}
+
+.dctxt h5 {
+
+    color: #404040;
+
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 44px;
+    margin-bottom: 3rem;
+}
+
+.dctxt p {
+    color: #606060;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+
+}
+
+.card1 {
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    text-align: center !important;
+    padding: 2rem !important;
+    padding-top: 6rem !important;
+    padding-bottom: 4rem !important;
+    margin-right: -1.5rem;
+    margin-top: -2rem;
+    margin-bottom: 1rem;
+}
+
+.card2 {
+    box-shadow: rgba(0, 0, 0, 0.15) 2.4px 2.4px 3.2px;
+    text-align: center !important;
+    padding: 2rem !important;
+    padding-top: 4rem !important;
+}
+
+.card1 h5 {
+    color: #404040;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 28px;
+    margin-bottom: 2rem !important;
+}
+
+.card1 p {
+    color: #606060;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 16px;
+}
+
+.card1 button {
+    width: 8rem;
+    height: 2.3rem;
+    border: none;
+    border-radius: 2rem;
+    background-color: #7d8bef;
+    color: #ffffff;
+    display: inline-block;
+    margin-top: 2rem;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 13px;
+
+
+}
+
+.card2 h5 {
+    color: #404040;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 28px;
+    margin-bottom: 2rem !important;
+}
+
+.card2 p {
+    color: #606060;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 16px;
+}
+
+.card2 button {
+    width: 8rem;
+    height: 2.3rem;
+    border: none;
+    border-radius: 2rem;
+    background-color: #7d8bef;
+    color: #ffffff;
+    display: inline-block;
+    margin-top: 2rem;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 13px;
+
+
+}
+
+.sp {
+    display: inline-block !important;
+    font-size: 4rem !important;
+}
+
+/* rows */
+
+.dcr1{
+padding-bottom: 10rem !important;
+
+}
+
+/* FAQ POrtion */
+
+.btn1{
+
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+    font-size: 19px;
+    line-height: 25px;
+    opacity: 0.8;
+    }
+    .crd1{
+    
+    border: none;
+    background-color: transparent !important;
+    
+    }
+
+.faqp{
+    padding-left: 3rem;
+}
+
+
+
+.faqp button{
+
+    width: 3rem;
+    height: 2.3rem;
+    border: none;
+    border-radius: 2rem;
+    background-color: #d1d2da;
+    color: #8892da;
+    display: inline-block;
+    margin-bottom: 2rem;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+
+
+}
+
+.faqp h5{
+color: #404040;
+font-weight: 400;
+font-size: 32px;
+line-height: 44px;
+margin-bottom: 2rem;
+}
+
+/* .faqp p{
+    font-weight: 600;
+font-size: 19px;
+line-height: 25px;
+opacity: 0.8;
+} */
+
+/* footer portion  */
+
+.ftf{
+background-color: #1E2228;
+min-height: 70vh;
+padding-top: 7rem;
+
+}
+
+.ftim img{
+    display: inline-block;
+    width: 50% !important;
+}
+.ftp{
+    padding-top: 2.5rem !important;
+    color: #cacaca;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+}
+
+.fth h5{
+color: white;
+font-weight: 600;
+font-size: 20px;
+line-height: 26px;
+margin-bottom: 1rem;
+}
+
+.fth p{
+
+    color: #cacaca;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+margin-bottom: 1rem;
+}
+
+.fth h6{
+    color: #cacaca;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+margin-bottom: 1.5rem;
+}
+
+.fth1 h5{
+    color: white;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 26px;
+    margin-bottom: 1rem;
+    }
+
+    .fth1 p{
+        color: #cacaca;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 32px;
+    }
+
+    .inp{
+        background-color: #cacaca;
+        border: none;
+        opacity: 0.3;
+        width: 5rem;
+        height: 3rem;
+        border-radius: 26px;
+        width: 10rem;
+        display: inline-block;
+    }
+
+.ftbut1{
+
+   /* display: inline-block;
+    */
+    display: inline-block !important;
+    border: none;
+    background-color: rgb(160, 160, 209);
+    color: white;
+    width: 5rem;
+    height: 3rem;
+    border-radius: 26px;
+  
+
+}
+
+/* query for first heading    */
+
+@media only screen and (max-width: 375px) {
+
+.tt{
+
+    text-align: center;
+    position: absolute;
+    top: 58%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+
+}
+
+}
+@media only screen and (max-width: 540px) {
+
+.tt{
+
+    text-align: center;
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+
+}
+
+}
+@media only screen and (max-width: 280px) {
+
+.tt{
+
+    text-align: center;
+    position: absolute;
+    top: 63%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+   
+
+}
+
+.tt h1{
+    font-size: 17px !important;
+}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
